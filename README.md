@@ -175,6 +175,7 @@ The key expansion routine creates round keys from the cipher key. For AES-128, t
     - AddRoundKey - XOR with round key
     - InvMixColumns - inverse column mixing
 3. Final round (without InvMixColumns)
+4. "I can also share my existing Verilog implementation for reference." 
 
 
 ## 📚 References
@@ -187,3 +188,4 @@ The key expansion routine creates round keys from the cipher key. For AES-128, t
 ## 📜 License
 
 This project is licensed under the MIT License - see [License](LICENSE) for more information.
+
